@@ -58,27 +58,27 @@ const Home: FC = () => {
 
   const features = [
     {
-      title: "Detecção Precoce",
+      title: "Certificação Internacional",
       description:
-        "Identifique sinais potenciais de autismo nas fases iniciais do desenvolvimento",
-      icon: "🔍",
+        "Ganhe um certificado reconhecido que valoriza seu currículo",
+      icon: "🏅",
     },
     {
-      title: "Análise com IA",
+      title: "Diferencial para Residência",
       description:
-        "Algoritmos avançados analisam padrões comportamentais com alta precisão",
+        "Se destaque nos processos seletivos para especializações médicas",
       icon: "🧠",
     },
     {
-      title: "Suporte Profissional",
+      title: "Reconhecimento no Mercado ",
       description:
-        "Conecte-se com especialistas com base nos resultados da triagem",
+        "Mostre seu potencial e se diferencie entre milhares de novos médicos que ingressam no mercado todos os dias",
       icon: "👨‍⚕️",
     },
     {
-      title: "Aprendizado Contínuo",
+      title: "Preparação para Provas Competitivas",
       description:
-        "Nossa IA melhora constantemente sua precisão através de novos dados de pesquisa",
+        "Treine para desafios como residência médica e concursos, elevando sua performance acadêmica",
       icon: "📈",
     },
   ];
@@ -86,10 +86,10 @@ const Home: FC = () => {
   return (
     <>
       <>
-        <title>Autinosis | Triagem de Autismo com IA</title>
+        <title>Olimpíada Internacional de Medicina | Edição brasileira</title>
         <meta
           name="description"
-          content="Triagem revolucionária de autismo impulsionada por inteligência artificial"
+          content="Destaque-se na sua carreira médica e concorra a prêmio em dinheiro"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </>
@@ -138,14 +138,14 @@ const Home: FC = () => {
                 variants={fadeIn}
                 className="mb-4 text-center text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl"
               >
-                Autinosis.
+                Olimpíada Internacional de Medicina.
                 <br className="max-md:hidden" />
                 <motion.span
                   custom={1}
                   variants={fadeIn}
                   className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent"
                 >
-                  Impulsionado por IA
+                  International Medicine Olympiad | Brazilian Edition.
                 </motion.span>
               </motion.h1>
 
@@ -156,9 +156,9 @@ const Home: FC = () => {
                 variants={fadeIn}
                 className="mb-8 max-w-2xl text-center text-lg text-gray-600 md:text-xl"
               >
-                Revolucionando a triagem de autismo com inteligência artificial
-                de ponta. A detecção precoce leva a melhores resultados e
-                suporte personalizado.
+                Seja o médico que o mercado valoriza e paga bem. 
+                Prove seu conhecimento, destaque-se e conquiste 
+                prêmios na edição brasileira da IMED!
               </motion.p>
 
               <motion.div
@@ -207,13 +207,13 @@ const Home: FC = () => {
                     Nossa Tecnologia
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
-                    Como o Autinosis Funciona
+                    Como a IMED Funciona
                   </h2>
                   <p className="mx-auto max-w-2xl text-lg text-gray-600">
-                    Nossa plataforma impulsionada por IA utiliza algoritmos
-                    avançados para analisar padrões comportamentais e fornecer
-                    uma detecção precoce e precisa dos transtornos do espectro
-                    autista.
+                    A IMED é uma competição internacional que testa e aprimora 
+                    seus conhecimentos médicos por meio de desafios clínicos reais. 
+                    Nossa plataforma oferece um ambiente dinâmico para que os futuros médicos 
+                    se destaquem.
                   </p>
                 </motion.div>
 
@@ -250,12 +250,11 @@ const Home: FC = () => {
                 className="mx-auto max-w-4xl px-6 text-center"
               >
                 <h2 className="mb-6 text-3xl font-bold text-white md:text-4xl">
-                  Encontre as melhores opções para você ou seu filho
+                  Construa um currículo internacional
                 </h2>
                 <p className="mx-auto mb-8 max-w-2xl text-xl text-white/90">
-                  Nosso processo de triagem leva menos de 15 minutos e fornece
-                  insights imediatos com próximos passos e recursos
-                  personalizados.
+                  Nossa olímpiada dura 2 horas mas te fornece
+                  benefícios para a vida toda. 
                 </p>
                 <Link href="/test">
                   <motion.button
@@ -263,7 +262,7 @@ const Home: FC = () => {
                     whileTap={{ scale: 0.95 }}
                     className="rounded-full bg-white px-8 py-4 font-semibold text-blue-600 shadow-lg transition-all duration-300 hover:shadow-xl"
                   >
-                    Iniciar Triagem Gratuita
+                    Inscreva-se agora. Register now.
                   </motion.button>
                 </Link>
               </motion.div>
@@ -283,14 +282,13 @@ const Home: FC = () => {
                   className="mb-16 text-center"
                 >
                   <span className="mb-4 inline-block rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
-                    Histórias de Sucesso
+                   Feedbacks
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
-                    Confiado por Famílias e Profissionais
+                    Confiado por estudantes de todo o mundo 
                   </h2>
                   <p className="mx-auto max-w-2xl text-lg text-gray-600">
-                    Veja como o Autinosis está fazendo a diferença na detecção
-                    precoce do autismo
+                    Veja como a IMED te ajuda se posicionar como um médico de valor no mercado.
                   </p>
                 </motion.div>
 
@@ -298,14 +296,14 @@ const Home: FC = () => {
                   {[
                     {
                       quote:
-                        "A detecção precoce por meio do Autinosis nos ajudou a obter apoio para nosso filho 18 meses antes do que poderíamos ter conseguido de outra forma.",
-                      author: "Sara M., Responsável",
+                        "Só o certificado de participação na IMED já é um diferencial enorme. Agora, imagina somar isso aos prêmios e ao networking com futuros colegas de profissão… Experiência única!.",
+                      author: "Sara M., Estudante de Medicina",
                       avatar: "/images/avatar1.jpg",
                     },
                     {
                       quote:
-                        "Como pediatra, descobri que o Autinosis é uma ferramenta inestimável na minha prática. A triagem impulsionada por IA complementa os métodos tradicionais.",
-                      author: "Dr. Daniel Souza, Pediatra",
+                        ""Como estudante de medicina, participar da IMED é transformador. Os desafios me ajudaram a aprimorar meu raciocínio clínico de forma única."  
+                      author: "Gustavo Souza, Estudante de Medicina",
                       avatar: "/images/avatar2.jpg",
                     },
                   ].map((testimonial, index) => (
@@ -358,12 +356,11 @@ const Home: FC = () => {
                       <span className="text-lg font-bold text-white">A</span>
                     </div>
                     <span className="text-xl font-bold text-white">
-                      Autinosis
+                      IMED
                     </span>
                   </div>
                   <p className="text-gray-400">
-                    Plataforma revolucionária de triagem e suporte para autismo
-                    impulsionada por IA.
+                    Internacional Medicine Olympaid, Brazil.
                   </p>
                 </div>
 
@@ -372,7 +369,7 @@ const Home: FC = () => {
                   <ul className="space-y-2">
                     <li>
                       <Link
-                        href="https://millenaxavier.com"
+                        href="https://www.google.com"
                         className="transition-colors hover:text-blue-400"
                       >
                         Sobre Nós
@@ -380,7 +377,7 @@ const Home: FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="https://millenaxavier.com/projects"
+                        href="https://www.google.com"
                         className="transition-colors hover:text-blue-400"
                       >
                         Nossa Tecnologia
@@ -388,7 +385,7 @@ const Home: FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="https://millenaxavier.com/academics"
+                        href="https://www.google.com"
                         className="transition-colors hover:text-blue-400"
                       >
                         Pesquisa
@@ -409,9 +406,8 @@ const Home: FC = () => {
                   <h3 className="mb-4 text-lg font-semibold">Contato</h3>
                   <ul className="space-y-2">
                     <li>autinosis@gmail.com</li>
-                    <li>+55 32 99856-2006</li>
                     <li>
-                      Minas Gerais
+                      Brazil
                       <br />
                       Brasil 
                     </li>
@@ -425,7 +421,7 @@ const Home: FC = () => {
                       (social) => (
                         <a
                           key={social}
-                          href={`https://${social}.com/autinosis`}
+                          href={`https://${social}.com/imed`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 transition-colors hover:bg-blue-500"
@@ -443,8 +439,8 @@ const Home: FC = () => {
               <div className="mx-auto mt-12 max-w-6xl border-t border-gray-800 pt-6 text-sm text-gray-500">
                 <div className="flex flex-col items-center justify-between md:flex-row">
                   <p>
-                    © {new Date().getFullYear()} Autinosis. Todos os direitos
-                    reservados.
+                    © {new Date().getFullYear()} IMED Brazil. Todos os direitos
+                    reservados. 2025.
                   </p>
                   <div className="mt-4 flex space-x-6 md:mt-0">
                     <Link
